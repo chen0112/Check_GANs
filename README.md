@@ -4,9 +4,13 @@ Otherwise, you can train the check-GANs on each component on the check, e.g., lo
 
 
 To fulfill the goal of generating different components of check images, multiple datasets have been used to train the check-GANs. The first dataset was selected from bank checks segmentation database (BCSD). This dataset contains 158 images of bank checks with segmentation masks for signatures. It was designed to train a network to extract signatures from bank checks. Each image is 2240px with a resolution of 300px/in. All images were converted to JPEG format. Manual segmentation masks were created for the signatures on these checks, and the dataset was divided into 129 training images and 29 test images. The link of the dataset is list as following: https://www.kaggle.com/saifkhichi96/bank-checks-signatures-segmentation-dataset.
+
+
 The second dataset was used is signature dataset. CEDAR Signature is a database of off-line signatures for signature verification. Each of 55 individuals contributed 24 signatures thereby creating 1,320 genuine signatures. Some were asked to forge three other writers’ signatures, eight times per subject, thus creating 1,320 forgeries. Each signature was scanned at 300 dpi grayscale and binarized using a gray-scale histogram. Salt pepper noise removal and slant normalization were two steps involved in image preprocessing. The database has 24 genuine and 24 forgeries available for each writer. The link of the dataset is list as following: https://paperswithcode.com/dataset/cedar-signature.
 
 The third dataset was from handwriting recognition. This dataset consists of more than four hundred thousand handwritten names collected through charity projects. Character Recognition utilizes image processing technologies to convert characters on scanned documents into digital forms. It typically performs well in machine-printed fonts. There are 206,799 first names and 207,024 surnames in total. The data was divided into a training set (331,059), testing set (41,382), and validation set (41,382) respectively. The link of the dataset is list below: https://www.kaggle.com/landlord/handwriting-recognition.
+
+
 The fourth dataset was from logo-2k+ dataset, which is a large-scale logo dataset for scalable logo classification. This real-world logo dataset contains 2,314 categories and 167,140 images. The link of the dataset is listed below: https://github.com/msn199959/Logo-2k-plus-Dataset.
 ![image](https://user-images.githubusercontent.com/62029679/153080801-16f44791-3c0f-4695-86f1-763af326609b.png)
 

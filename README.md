@@ -1,6 +1,8 @@
 # Check_GANs
 This repo is created to generate synthetic check images. It can generate the whole check images if you have a large dataset size. 
-Otherwise, you can train the check-GANs on each component on the check, e.g., logo, signature, handwriting, etc., and assemble them at the end to form the check. 
+Otherwise, you can train the check-GANs on each component on the check, e.g., logo, signature, handwriting, etc., and assemble them at the end to form the check.
+
+
 To fulfill the goal of generating different components of check images, multiple datasets have been used to train the check-GANs. The first dataset was selected from bank checks segmentation database (BCSD). This dataset contains 158 images of bank checks with segmentation masks for signatures. It was designed to train a network to extract signatures from bank checks. Each image is 2240px with a resolution of 300px/in. All images were converted to JPEG format. Manual segmentation masks were created for the signatures on these checks, and the dataset was divided into 129 training images and 29 test images. The link of the dataset is list as following: https://www.kaggle.com/saifkhichi96/bank-checks-signatures-segmentation-dataset.
 The second dataset was used is signature dataset. CEDAR Signature is a database of off-line signatures for signature verification. Each of 55 individuals contributed 24 signatures thereby creating 1,320 genuine signatures. Some were asked to forge three other writers’ signatures, eight times per subject, thus creating 1,320 forgeries. Each signature was scanned at 300 dpi grayscale and binarized using a gray-scale histogram. Salt pepper noise removal and slant normalization were two steps involved in image preprocessing. The database has 24 genuine and 24 forgeries available for each writer. The link of the dataset is list as following: https://paperswithcode.com/dataset/cedar-signature.
 

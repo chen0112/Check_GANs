@@ -1,6 +1,6 @@
 # Check_GANs
-This repo is created to generate synthetic check images. It can generate the whole check images if you have a large dataset size. 
-Otherwise, you can train the check-GANs on each component on the check, e.g., logo, signature, handwriting, etc., and assemble them at the end to form the check.
+This repo is created to generate synthetic check images. It can generate the whole check images if you have a large dataset size which is shown in the notebook of DCGAN (1). It used the complete check images to generate synthetic check images.
+Otherwise, you can train the check-GANs on each component on the check, e.g., logo, signature, handwriting, etc., and assemble them at the end to form the check from the notebook Cifar10-GANs(1). The notebook used Cifar10 as an example to test the structure and then trained deeo neural networks on datasets list below. 
 
 
 To fulfill the goal of generating different components of check images, multiple datasets have been used to train the check-GANs. The first dataset was selected from bank checks segmentation database (BCSD). This dataset contains 158 images of bank checks with segmentation masks for signatures. It was designed to train a network to extract signatures from bank checks. Each image is 2240px with a resolution of 300px/in. All images were converted to JPEG format. Manual segmentation masks were created for the signatures on these checks, and the dataset was divided into 129 training images and 29 test images. The link of the dataset is list as following: https://www.kaggle.com/saifkhichi96/bank-checks-signatures-segmentation-dataset.

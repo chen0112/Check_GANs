@@ -12,7 +12,8 @@ The third dataset was from handwriting recognition. This dataset consists of mor
 
 
 The fourth dataset was from logo-2k+ dataset, which is a large-scale logo dataset for scalable logo classification. This real-world logo dataset contains 2,314 categories and 167,140 images. The link of the dataset is listed below: https://github.com/msn199959/Logo-2k-plus-Dataset.
-![image](https://user-images.githubusercontent.com/62029679/153080801-16f44791-3c0f-4695-86f1-763af326609b.png)
+
+
 
 Some results are shown below along with the check-GANs architecture. 
 ![generator_plot_500 (1)](https://user-images.githubusercontent.com/62029679/152683304-fb212b96-2b9a-4600-92ec-342d9c5abb7c.png)
